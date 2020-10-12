@@ -11,11 +11,10 @@ DataFrame, created mechanisms by which I could filter out songs by when they wer
 them was, and then created a variety of features that I thought would be useful in quantifying which artists were really capturing my attention
 and affection. 
 ![Artist Stats](mymusic_artist_stats.png)
-
 To give a details about a few of the things I did here: 
 
 The plays per week gave me issue when being used as a metric for how frequently I listened to an artist's songs, because the songs most recently 
-added had much higher values, with the small number of weeks in the denominator far outweighing the smaller number of plays in the numerator, 
+added had much higher values, with the small number of weeks since the song was added in the denominator far outweighing the smaller number of plays in the numerator, 
 since I listen to songs I've just added more frequently than old ones. This was making this statistic severely unbalanced towards artists with recently 
 added songs, so I transformed the data to a more level distribution by adding 40 "empty" weeks to the calculation, then multiplying by a ratio of (6/5),
 which brought songs added 200 weeks ago (a somewhat central point in my library) to the same value they had before the transformation, while decreasing
