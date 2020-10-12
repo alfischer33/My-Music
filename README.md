@@ -28,10 +28,10 @@ each of the six first artist statistics and gives a score out of 100 based on ho
 this metric because it is robust and easier to see how artists earn their top places. Other metrics are more complex and in many cases capture strengths 
 of artists that are not reflected in the "Stat Composite". The columns are color mapped to help reveal some of these artists:
 ![Top Artists](mymusic_top_artists.png)
-One of the more nuanced filters I used was a 1.5 (songs/loved) ratio. The reasoning for this was because there were multiple artists who were showing 
-up with high statistics because their only songs that made it past the filter of "listened since" (which filters out songs that I haven't listened to 
-since a given date) were the few that they had with high ratings or that would be present in a lot of my playlists; gathering high statistics because 
-of those songs that I listened to a lot when I was younger, but otherwise they might be artists I no longer listen to. 
+One of the more nuanced filters I used was removing artists with less than a 1.5 (songs/loved) ratio. Although it seems counter-intuitive to remove artists that have a large percentage of their songs rated as "loved", the reasoning for this was because there were multiple artists who were showing up with high statistics because their 
+only songs that made it past the filter of "listened since" (which filters out songs that I haven't listened to since a given date) were the few that 
+they had with high ratings or that would be present in a lot of my playlists; gathering high statistics because of those songs that I listened to a lot 
+when I was younger, but otherwise they might be artists I no longer listen to. 
 
 ## Tableau
 Here is a dashboard I made in Tableau from my music data, giving the options to filter by songs last played within a certain time frame,
