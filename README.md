@@ -1,5 +1,5 @@
-# My Music
-An analysis run on my music library to discover which artists I quantitatively enjoy the most
+# Top Artists
+An analysis run on my music library to discover quantitative measures for determining top artists given Apple Music library data
  
 
 ## Jupyter Notebook
